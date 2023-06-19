@@ -1,4 +1,53 @@
+/* Global Selector */
+* {
+    box-sizing: border-box;
+    /* border: 1px solid red; */
+    font-family: 'Open Sans', 'Segoe UI', 'Droid Sans', Tahoma, Arial, sans-serif;
+
+}
+
+/* Local Selectors */
+body {
+    /* background-color: #615757; */
+    background-image: url('../pegboard.jpg')
+}
 h1 {
     color: white;
-    background-color: black;
+    background-color: hsla(0 , 0%, 0%, 0.7);
+    height: 150px;
+    padding: 30px 0;
+}
+
+.button {
+    border: 3px solid black;
+    padding: 10px 20px;
+    background-color: hsla(0, 0%, 100%, 0.5);
+    margin: 0 100px;
+    font-size: x-large;
+    font-weight: bold;
+    display: inline-block;
+    overflow: auto;
+
+}
+
+.content {
+    background-color: hsla(0, 0%, 100%, 0.3);
+}
+
+li a {
+    text-decoration: none;
+    padding: 5px 10px;
+}
+
+
+ul {
+    list-style-type: none;
+    max-height: 600px;
+}
+
+nav {
+    /* background-color: #0026ff; */
+    /* background-image: url('https://st4.depositphotos.com/15585482/41661/v/600/depositphotos_416615424-stock-illustration-black-metallic-peg-board-perforated.jpg'); */
+    text-align: center;
+    
 }

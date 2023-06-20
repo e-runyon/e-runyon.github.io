@@ -2,14 +2,20 @@
 * {
     box-sizing: border-box;
     /* border: 1px solid red; */
-    font-family: 'Open Sans', 'Segoe UI', 'Droid Sans', Tahoma, Arial, sans-serif;
+    font-family:  "IBM Plex Mono", Tahoma, sans-serif;
 
 }
+@font-face {
+    font-family: "IBM Plex Mono", monospace;
+    src: url("/resources/css/IBMPlexMono-Regular.ttf") format('truetype');
+}
+
 
 /* Local Selectors */
 body {
     /* background-color: #615757; */
-    background-image: url('../pegboard.jpg')
+    background-image: url('./benchtop.png');
+    font-family: "IBM Plex Mono", "New Courier", monospace;
 }
 h1 {
     color: white;
@@ -31,7 +37,7 @@ h1 {
 }
 
 .content {
-    background-color: hsla(0, 0%, 100%, 0.3);
+    background-color: hsla(0, 0%, 100%, 0.37);
 }
 
 li a {
@@ -49,5 +55,8 @@ nav {
     /* background-color: #0026ff; */
     /* background-image: url('https://st4.depositphotos.com/15585482/41661/v/600/depositphotos_416615424-stock-illustration-black-metallic-peg-board-perforated.jpg'); */
     text-align: center;
+    width: 100%;
+    background-color: hsla(0 , 0%, 0%, 0.7);
+    margin: 0 auto;
     
 }

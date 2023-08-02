@@ -68,6 +68,10 @@ ul {
 
 .content {
     background-color: hsla(0, 0%, 100%, 0.37);
+    width: 1000px;
+    text-align: center;
+    margin: auto;
+    
 }
 
 #reset {

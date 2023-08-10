@@ -2,7 +2,7 @@
 let devices = document.querySelectorAll('section.category');
 
 // Phone Makes | DOM to Variables
-let phoneMakes = document.querySelectorAll('section.make');
+let phoneMakes = document.querySelectorAll("");
 
 // Mobile Symptoms |
 const mobileSymptoms = document.querySelectorAll('section.mobile-symptoms');
@@ -23,13 +23,10 @@ resetButton.onclick = reset;
 // Button Press Interaction
 const buttonPress = e => {
     e.target.style.backgroundColor = 'green';
-    
 }
 const buttonRelease = e => {
     e.target.style.backgroundColor = '';
 }
-
-devices.forEach
 
 
 

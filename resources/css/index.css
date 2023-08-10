@@ -16,7 +16,7 @@ body {
     font-family: "IBM Plex Mono", "New Courier", monospace;
     /* background-image: url('../../resources/css/benchtop.png');
     background-size: cover; */
-    background-color: hsl(0, 6%, 14%);
+    background-color: hsl(0, 0%, 100%);
 }
 
 .banner {
@@ -28,7 +28,7 @@ body {
     padding-left: 20px;
 }
 
-.banner, nav {
+.banner {
     display: inline-flex;
     text-align: center;
     width: 100%;
@@ -41,7 +41,6 @@ li a {
 }
 
 nav {
-    
     text-align: center;
 }
 
@@ -62,16 +61,52 @@ ul {
 
 }
 
+.button:hover {
+    cursor: pointer;
+}
+
 .category {
     display: inline-block;
 }
 
-.content {
-    background-color: hsla(0, 0%, 100%, 0.37);
-    width: 1000px;
+.footer {
+    background-color: hsla(23, 81%, 43%, 0.947);
+    display: block;
+    max-height: 1200px;
+    min-height: 100px;
+    position: absolute;
     text-align: center;
-    margin: auto;
-    
+    width: 100%;
+    inset: auto 0 0 0;
+}
+
+.options {
+    text-align: center;
+}
+.tile {
+    border: 3px solid purple;
+    width: 400px;
+    display: inline-block;
+    vertical-align: text-top;
+    margin: 20px 40px;
+    padding: 0 10px;
+}
+
+.tile a {
+    text-decoration: none;
+}
+
+#typewriter-tile {
+    background-image: ;
+}
+
+
+#msg {
+    border: 1px dotted white;
+    min-width: 300px;
+    min-height: 1rem;
+    position: absolute;
+    bottom: 50px;
 }
 
 #reset {
@@ -82,12 +117,4 @@ ul {
     bottom: 50px;
     right: 50px;
     text-align: center;
-}
-
-#msg {
-    border: 1px dotted white;
-    min-width: 300px;
-    min-height: 1rem;
-    position: absolute;
-    bottom: 50px;
 }

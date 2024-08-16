@@ -1,0 +1,19 @@
+.statistic {
+    border: 1px solid hsl(0, 0%, 80%);
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+h2 {
+    padding: 0 1em;
+    border-right: 2px solid hsl(0, 0%, 80%);
+}
+
+h3 {
+    padding: 0 1em;
+}
+
+

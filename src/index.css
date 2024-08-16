@@ -1,0 +1,28 @@
+html {
+    background-color: #1c1b22;
+    color: rgba(255, 255, 255, 0.80);
+    font-family: Arial, sans-serif;
+
+}
+
+.container {
+    align-items: center;
+    align-content: space-around;
+    /* border: 1px solid white; */
+    display: flex;
+    flex-wrap: wrap-reverse;
+    height: 90vh;
+    justify-content: space-around;
+    max-width: 60%;
+    margin: 0 auto;
+    overflow: auto;
+}
+
+.statistics {
+    align-content: center;
+
+    flex: auto;
+    max-width: 30%;
+    padding: 3em;
+    
+}

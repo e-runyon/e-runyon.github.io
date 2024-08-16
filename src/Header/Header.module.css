@@ -1,0 +1,46 @@
+a {
+    text-decoration: none;
+    color: white;
+}
+
+header {
+    /* border: 1px solid white; */
+    height: 5vh;
+    padding: 20px 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+nav {
+    display: flex;
+}
+
+
+ul {
+    padding: 0;
+    display: flex;
+    width: 600px;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+
+ul li {
+    width: 100px;
+    height: 3em;
+    font-size: 1.3em;
+    border-radius: 10px;
+    list-style-type: none;
+    text-align: center;
+    align-content: center;
+    color: white;
+
+    
+}
+
+a:hover, li:hover {
+    background-color: hsl(100, 50%, 50%);
+}
+

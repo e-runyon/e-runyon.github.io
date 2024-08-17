@@ -2,7 +2,7 @@ import styles from './Header.module.css';
 
 function Header() {
     return (
-        <header>
+        <header style={styles}>
             <h1>[ Evan Runyon ]</h1>
             <nav>
                 <ul>
